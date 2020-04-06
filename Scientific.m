@@ -1,7 +1,8 @@
 function t = Scientific(x, prec)
 % t = Scientific(x, [prec])
-%   Converts a floating poing number to a text string with scientific
+%   Converts a floating poinr number to a text string with scientific
 %   notation.
+% Peter.Harrington@OHIO.edu 5-April-2020
 
 if nargin == 1
     prec = 1;
